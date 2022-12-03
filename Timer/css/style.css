@@ -1,0 +1,42 @@
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    min-width: 350px;
+    min-height: 350px;
+    border-radius: 50%;
+    border: 13px solid rgb(86, 82, 82);
+    padding: 10px 0px 5px 0px;
+    background-color:rgb(216, 232, 239) ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    min-width: 50px;
+    min-height: 25px;
+    font-size: 16px;
+    margin: 5px;
+    padding: 4px 10px;
+    background-color:rgb(177, 218, 236) ;
+    border: 2px solid rgb(139, 209, 238);
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: rgb(139, 209, 238) ;
+    border: 2px solid rgb(177, 218, 236);
+}
+.row__timer{
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 5px 30px 5px 30px;
+    margin: 0px 0px 8px 0px;
+    background-color: aliceblue;
+}
+.active{
+    background-color:rgb(139, 209, 238) ;
+}
