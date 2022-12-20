@@ -1,0 +1,117 @@
+.wrap{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:mediumslateblue;
+}
+.content{
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color:greenyellow;
+    box-shadow: 15px 5px rgb(101, 152, 26);
+}
+
+.header{
+    transition-duration: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 3px black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px 20px 5px 20px;
+}
+.header:hover{
+    top:2px;
+    box-shadow: 1px 1px black;
+}
+.btn__new__color{
+    max-width: 100px;
+    padding: 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color:orange
+}
+.btn__new__color:hover{
+    background-color: rgb(226, 149, 5);
+}
+.result__field{
+    text-align: center;
+    margin: 5px;
+}
+.row__color{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    transition-duration: 1s;
+    
+    text-align: center;
+    min-width: 300px;
+    min-height: 460px;
+    
+    margin: 10px 20px 10px 20px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.field__color__row{
+    margin: 15px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.field__color__row input{
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 1s;}
+.btn__copy{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: white;
+    transition-duration: 1s;
+}
+.btn__copy:hover{
+    background-color: aqua;
+}
+.btn__copy:active{
+    transition-duration: 0s;
+    background-color: blue;
+}
+.message__of__copy{
+    position:absolute;
+    top: -170px;
+    left: 0px;
+    width: 100%;
+    margin: 10px 0px;
+    padding: 12px 30px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    background-color: rgb(121, 247, 180);
+    color: rgb(10, 123, 10);
+    
+    transition-duration: 3s;
+}
+.elem__display__none{
+    display: none;
+}
+.elem__visibal{
+    display: flex;
+    visibility: visible;
+}
+.show__message__of__copy{
+    top: 0px;
+}
+

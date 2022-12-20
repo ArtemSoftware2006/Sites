@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random hex-color</title>
+    <link rel="stylesheet" href="../hex-color/css/Null.css">
+    <link rel="stylesheet" href="../hex-color/css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="message__of__copy">Код цвета скопирован в буфер</div>
+        <div class="content">
+            <header class="header">
+                <output id="result__field" class="result__field">Программа генерирует случайный цвет</output>
+                <button id ="btn__new__color" class="btn__new__color">Новый цвет</button>
+            </header>
+            <div id="row__color" class="row__color">
+                <div class="field__color__row elem__display__none" >
+                    <input readonly id="field_hex_code" class="field__color__kod" value="Шeстнадцатиричный код"></input> 
+                    <button id="btn__copy__hex" class="btn__copy"><img src="../hex-color/img/79bae072db3a2f7da2ca555177d245f3.png" alt="Копировать"></button>
+                </div>
+                
+                <div class="row__color__text">Здесь будет ваш цвет</div>
+
+                <div class="field__color__row elem__display__none" >
+                    <input readonly id="field_rgb_code" class="field__color__kod" value="RGB код"></input>
+                    <button id="btn__copy__rgb" class="btn__copy"><img src="../hex-color/img/79bae072db3a2f7da2ca555177d245f3.png" alt="Копировать"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../hex-color/js/script.js"></script>
+</body>
+</html>
